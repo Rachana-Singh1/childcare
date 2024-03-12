@@ -1,0 +1,86 @@
+/* Register.css */
+
+.register-section {
+  background-color: #CCD3CA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .register-container {
+   background-color: #B5C0D0;
+    width: 320px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* background-color: #fff; */
+  }
+  
+  .register-container h1 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .register-form-group {
+    margin-bottom: 15px;
+  }
+  
+  .register-form-group label {
+    display: flex;
+    align-items: center;
+  }
+  
+  .register-form-group label svg {
+    margin-right: 10px;
+  }
+  
+  .register-form-group input[type="text"],
+  .register-form-group input[type="email"],
+  .register-form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .register-form-group span.required {
+    color: red;
+  }
+  
+  .register-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .register-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .register-container p {
+    text-align: center;
+  }
+  
+  .register-container p a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .register-container p a:hover {
+    text-decoration: underline;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  .success {
+    color: green;
+  }
+  

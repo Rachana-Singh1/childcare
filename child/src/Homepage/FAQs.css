@@ -1,0 +1,33 @@
+.faqs-container {
+    background-image: url('D:\project\childcare\src\images\faq.jpg');
+      /* max-width: 800px; */
+      background-position: center;
+      background-size: cover;
+      margin: 0 auto;
+      padding: 2rem;
+      height: auto;
+      font-size: 1.1rem;
+      text-align: center;
+      line-height: 1.5;
+    }
+    
+    .faq-item {
+      margin-top: auto;
+      margin-bottom: 2rem;
+    }
+    
+    .faq-item h2 {
+      margin-top: 40px; 
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    .faq-item p{
+      /* margin-top: -70.90px; */
+      /* margin-bottom: -780.25px; */
+     margin: -15.90px;
+    padding: auto;
+     margin-top: auto;
+    
+  
+    }
+    

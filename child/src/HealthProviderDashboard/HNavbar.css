@@ -1,0 +1,58 @@
+/* Navbar.css */
+
+.hnavbar {
+    background-color: #8CB9BD;
+
+    padding: 10px;
+  }
+  
+  .hnavbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .hnavbar-logo {
+    color: #141414;
+    text-decoration: none;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 90px; /* Adjust the width as needed */
+    height: 80px;
+    margin-right: 10px; /* Add margin to separate logo from text */
+  }
+  
+  .hnav-menu {
+    background-color: rgba(255, 255, 255, 0.0); /* Adjust the last value (alpha) for transparency */
+    list-style: none;
+    display: flex;
+    align-items: center;
+    color: #af148d;
+  }
+  
+  .hnav-item {
+    background-color: rgba(255, 255, 255, 0.0); /* Adjust the last value (alpha) for transparency */
+    padding: -60px;
+    margin-right: 80px;
+    color: #d6cbcb;
+  }
+  
+  .hnav-item:hover{
+    
+  background-color: rgb(145, 130, 142);
+  }
+  .hnav-links {
+    color: #201f1f;
+    text-decoration: none;
+    padding: 10px;
+    position: relative;
+  }
+  
+  
+  
+  
+  

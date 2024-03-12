@@ -1,0 +1,89 @@
+.appoint-page{
+  background-image: url('D:\project\child\src\images\time.jpg');
+  
+    background-position: center;
+  background-size: cover;
+  height: 120vh;
+  overflow: hidden;
+  align-items: center;
+  text-align: center;
+    padding: 20px;
+}
+.container {
+  
+  background-color: rgba(255, 255, 255, 0.0); /* Adjust the last value (alpha) for transparency */
+   
+    border-radius: 10px;
+    margin-left: 850px;
+    width: 60%; /* Adjust width as needed */
+    max-width: 400px; /* Adjust max-width as needed */
+}
+
+.container h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.container form div {
+  margin-bottom: 15px;
+}
+
+.container form label {
+  /* margin-left: 50px; */
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+/* Style for icon labels */
+.container label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Style for icon */
+.container svg {
+  margin-right: 10px; /* Adjust the spacing between the icon and the label text */
+  color: #1a1b1b; /* Change the icon color as needed */
+}
+
+.container form input[type="text"],
+.container form input[type="email"],
+.container form input[type="tel"],
+.container form input[type="number"],
+.container form input[type="date"],
+.container form input[type="time"] {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.container form input[type="checkbox"] {
+  block-size: 30px;
+  width: 30%;
+  box-sizing: 40px;
+  max-width: 40px;
+  margin-right: 50px;
+}
+
+.container form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.success-message {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #28a745;
+  border-radius: 5px;
+  background-color: #d4edda;
+  color: #155724;
+}

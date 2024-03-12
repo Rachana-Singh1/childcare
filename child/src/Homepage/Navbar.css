@@ -1,0 +1,94 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: #8CB9BD;
+
+    padding: 10px;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-logo {
+    color: #141414;
+    text-decoration: none;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 90px; /* Adjust the width as needed */
+    height: 80px;
+    margin-right: 10px; /* Add margin to separate logo from text */
+  }
+  
+  .nav-menu {
+    background-color: rgba(255, 255, 255, 0.0); /* Adjust the last value (alpha) for transparency */
+    list-style: none;
+    display: flex;
+    align-items: center;
+    color: #af148d;
+  }
+  
+  .nav-item {
+    background-color: rgba(255, 255, 255, 0.0); /* Adjust the last value (alpha) for transparency */
+    padding: -60px;
+    margin-right: 80px;
+    color: #d6cbcb;
+  }
+  
+  .nav-item:hover{
+    
+  background-color: rgb(145, 130, 142);
+  }
+  .nav-links {
+    color: #201f1f;
+    text-decoration: none;
+    padding: 10px;
+    position: relative;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    /* background-color: rgb(145, 130, 142); */
+
+    padding: 10px;
+    display: none;
+  }
+  
+  .nav-item:hover .dropdown-menu {
+    display: block;
+    /* background-color: rgb(145, 130, 142,0.0); */
+  }
+  
+  
+  .dropdown-item {
+    color: #131212;
+    text-decoration: none;
+    display: block;
+    padding: 8px 0;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #555;
+  }
+  
+  .age-selector {
+    margin-bottom: 10px; /* Add margin below the age selector */
+  }
+  
+  .age-selector label {
+    color: #fff;
+    margin-right: 5px; /* Add margin between label and select element */
+  }
+  
+  .age-selector select {
+    padding: 5px;
+  }
+  

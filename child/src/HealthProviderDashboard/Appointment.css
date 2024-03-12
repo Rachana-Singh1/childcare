@@ -1,0 +1,25 @@
+.appointment-card {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.res-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.res-table th,
+.res-table td {
+  border: 1px solid #7e7272;
+  padding: 8px;
+  text-align: left;
+}
+
+.res-table th {
+  background-color: #719ca3;
+  font-weight: bold;
+}

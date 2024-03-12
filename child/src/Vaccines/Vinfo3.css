@@ -1,0 +1,33 @@
+/* Vinfo3.css */
+
+.vinfo3-container {
+    background-color: #CDFADB;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 2rem;
+    height: auto;
+    /* font-size: 1.1rem; */
+    text-align: center;
+  }
+  
+   .vaccine-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .vaccine-card h2 {
+   
+    margin-top: 0;
+  }
+  
+ .vaccine-card p {
+    margin: 5px 0;
+  }
+  
+   .vaccine-card strong {
+    font-weight: bold;
+  }
+  
+  

@@ -1,0 +1,29 @@
+.vinfo1-container{
+  /* background-image: url('D:\project\child\src\images\vinfos1.jpg'); */
+  background-position: center;
+      background-size: cover;
+      margin: 0 auto;
+      padding: 2rem;
+      height: auto;
+      background-color: #CDFADB;
+      /* font-size: 1.1rem; */
+      text-align: center;
+}
+.vaccine-card {
+    border: 10px solid #1b1a1a;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .vaccine-card h2 {
+    margin-top: 0;
+  }
+  
+  .vaccine-card p {
+    margin: 5px 0;
+  }
+  
+  .vaccine-card strong {
+    font-weight: bold;
+  }
+  

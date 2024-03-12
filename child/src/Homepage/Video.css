@@ -1,0 +1,44 @@
+.Video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color:#B5C0D0; /* Light gray background */
+  }
+  
+  .Video Navbar {
+    /* align-self: flex-start; Align the navigation to the left */
+    margin-bottom: 10px; /* Add margin at the bottom for spacing */
+    width: 126%;
+    max-width: 4000px;
+    /* margin-left: 5px; */
+  }
+  
+  .Video h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .Video h4 {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .video-container {
+    width: 80%;
+    
+    display: flex;
+    overflow-x: auto;
+    padding:20px ;
+    
+  }
+
+  
+  .ReactPlayer1,
+  .ReactPlayer2 {
+    max-width: 470px; /* Set maximum width for the player */
+    margin-right: 70px; /* Add margin between the players */
+    border: 5px solid #000; /* Add border to each video */
+  }

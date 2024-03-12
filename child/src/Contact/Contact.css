@@ -1,0 +1,75 @@
+.contact-section {
+    /* background-image:url("D:\project\childcare\src\images\contact.jpg"); */
+    background-color: #CCD3CA;
+    background-position: center;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+  align-items: center;
+  text-align: center;
+    padding: 20px;
+  }
+  .Navbar{
+    align-self: flex-start; /* Align the navigation to the left */
+    margin-bottom: 10px; /* Add margin at the bottom for spacing */
+    width: 1260px;
+    margin-left: 5px;
+  }
+  .contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    overflow-y: hidden;
+  }
+  
+  .contact-form-group {
+    margin-bottom: 20px;
+  }
+  
+  .contact-form-group label {
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-form-group label svg {
+    margin-right: 10px;
+  }
+  
+  .contact-form-group input,
+  .contact-form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-form-group textarea {
+    resize: vertical; /* Allow vertical resizing */
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .success-message {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  

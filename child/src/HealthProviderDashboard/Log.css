@@ -1,0 +1,38 @@
+/* ParentDashboard.css */
+
+/* Add your CSS styling rules here */
+
+.log-section{
+
+    background-color: #f0f0f0;
+    background-size: cover;
+    padding: 50px 0;
+    text-align: center;
+    color: #0056b3;
+    height:100vh;
+    font-size: 60px;
+    /* overflow-y: auto; */
+}
+.log-container{
+  background-color: #f0f0f0;
+  background-size: cover;
+  /* padding: 50px 0; */
+  text-align: center;
+  color: #0056b3;
+  height:100vh;
+}
+ 
+  
+  .log-container p{
+    padding-bottom: 400px;
+    margin-bottom: 1000px;
+    font-size: 60px;
+  }
+  .log-container ::after{
+  font-size: 1.5em; /* Adjust the size of the symbol */
+  margin-right: 0.5em; 
+  
+}
+  
+  
+  

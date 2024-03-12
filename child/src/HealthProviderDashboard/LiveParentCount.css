@@ -1,0 +1,38 @@
+.list-count {
+    background-color: #b32e80;
+    padding: 20px;
+    width: 20%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .list-count h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .list-count p {
+    color: #666;
+    font-size: 16px;
+    margin-top: 0;
+  }
+  
+  /* Example button styling */
+  /* .list-count button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .list-count button:hover {
+    background-color: #0056b3;
+  } */
+  

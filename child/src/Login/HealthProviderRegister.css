@@ -1,0 +1,77 @@
+.provider-register-section {
+  background-color: #CCD3CA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .provider-register-container {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #B5C0D0;
+  }
+  
+  .provider-register-container h1 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .provider-register-container p {
+    margin-bottom: 15px;
+  }
+  
+  .provider-register-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .provider-register-container label {
+    display: flex;
+    align-items: center;
+  }
+  
+  .provider-register-container label svg {
+    margin-right: 10px;
+  }
+  
+  .provider-register-container input[type="text"],
+  .provider-register-container input[type="email"],
+  .provider-register-container input[type="password"] {
+    width: 90%;
+    /* max-width: 500px; */
+    margin-right: 400px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .provider-register-container button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .provider-register-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .provider-register-container .required {
+    color: red;
+  }
+  
+  .provider-register-container .error {
+    color: red;
+  }
+  
+  .provider-register-container .success {
+    color: green;
+  }
+  

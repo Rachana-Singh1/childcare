@@ -1,0 +1,170 @@
+.Article {
+    padding: 10px;
+    background-color:#B5C0D0;
+  }
+  
+  .slideshow-image {
+    width: 800px; /* Set the width of the image */
+    height: 400px; /* Set the height of the image */
+    object-fit: cover; /* Ensure the image covers the entire space */
+    margin-bottom: 5px; /* Add margin below the image */
+    text-align: center;
+    margin-left: 200px;
+  }
+  .ChildCareHeader {
+    position: relative; /* Ensure the ::before pseudo-element is positioned relative to this element */
+    color: rgb(57, 128, 209);
+
+    
+}
+.ChildCareHeader h3{
+  text-align: center;
+   }
+  
+  .ChildCareHeader::before {
+     content: '\1F9D2'; /*Unicode character for a seedling symbol */
+    font-size: 1.5em; /* Adjust the size of the symbol */
+    margin-right: 0.5em; /* Add some space between the symbol and the text */
+    /* text-align: center; */
+  }
+
+  
+  .CareParagrap {
+    font-size: 16px; /* Adjust the font size */
+    line-height: 1.6; /* Adjust the line height for better readability */
+    margin-bottom: 20px; /* Add some space below the paragraph */
+    color: #050505; /* Set the text color */
+   
+  }
+
+
+ /* Container for gardening tips */
+.CareTips {
+    margin-top: 30px;
+    
+  }
+  
+  /* Header for gardening tips section */
+  .CareTips h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .CareTips p {
+    width: 90%;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  
+  /* List of gardening tips */
+  .CareTips-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Use flexbox */
+    flex-wrap: wrap; /* Allow items to wrap to the next line if necessary */
+  }
+  .CareTips-list :hover {
+    background-color: rgb(183, 217, 240);
+}
+  
+  /* Individual gardening tip */
+  .CareTips-list li {
+    margin-bottom: 20px;
+    flex: 1 0 300px; /* Each tip occupies a maximum width of 300px */
+  }
+  
+  /* Gardening tip image */
+  .CareTips-image {
+    width: 90%;
+    height: 200px; /* Set a fixed height for consistency */
+    object-fit: cover; /* Ensure images maintain aspect ratio */
+    margin-right: 20px;
+    margin-left: 0px;
+  }
+
+
+ /* Individual card */
+.TAcard {
+  flex: 0 0 calc(25% - 20px); /* Each card occupies one-fourth of the container width with margin */
+  margin-right: 10px; /* Add right margin to create space between cards */
+  background-color: #fff; /* Card background color */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+  transition: box-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
+/* Card image */
+.TAcard-image {
+  width: 100%; /* Image fills the card width */
+  height: 300px; /* Set a fixed height for the image */
+  object-fit: cover; /* Ensure images maintain aspect ratio */
+  border-top-left-radius: 8px; /* Rounded corners for image */
+  border-top-right-radius: 8px; /* Rounded corners for image */
+}
+.TAcard:hover{
+background-color: rgb(167, 248, 86);
+}
+
+/* Card content */
+.TAcard-content {
+  padding: 10px; /* Add padding for content */
+}
+
+/* Card title */
+.TAcard-content h4 {
+  font-size: 14px; /* Set font size */
+  margin-bottom: 5px; /* Add bottom margin */
+}
+
+/* Card text */
+.TAcard-content p {
+  font-size: 12px; /* Set font size */
+  color: #555; /* Text color */
+  line-height: 1.4; /* Line height for readability */
+}
+/* Card container */
+.TAcard-container {
+  display: flex; /* Arrange cards in a row */
+  flex-wrap: nowrap; /* Prevent cards from wrapping to the next line */
+  overflow-x: auto; /* Enable horizontal scrolling if cards overflow */
+  padding-bottom: 10px; /* Add some bottom padding to ensure space for horizontal scrollbar */
+}
+
+
+.PersonArticles {
+  margin-top: 30px; /* Add margin to create space above the article */
+  margin-bottom: 20px;
+}
+
+.PersonArticles .article-container {
+  display: flex; /* Use flexbox to arrange elements */
+  align-items: center; /* Center items vertically */
+  margin-left: 120px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  border: 2px solid #090909; /* Add border */
+  width: 1000px;
+  background-color: #e4fea0; /* Set background color */
+  padding: 20px; /* Add padding */
+  border-radius: 8px; /* Add rounded corners */
+}
+.PersonArticles img {
+  width: 30%; /* Make the image responsive, filling its container */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Add rounded corners to the image */
+  margin-right: 20px; /* Add margin to the right of the image */
+  border: 1px solid black;
+}
+
+.PersonArticles h1 {
+  font-size: 24px; /* Set the font size for the article title */
+  color: #333; /* Set the color of the article title */
+  margin-bottom: 10px; /* Add margin below the article title */
+}
+
+.PersonArticles p {
+  font-size: 16px; /* Set the font size for the article paragraphs */
+  line-height: 1.4; /* Set the line height for better readability */
+  color: #333333; /* Set the color of the article paragraphs */
+  margin-bottom: 15px; /* Add margin below each paragraph */
+}

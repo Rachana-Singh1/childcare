@@ -1,0 +1,41 @@
+.vinfo2-container {
+    /* background-image: url('D:\project\child\src\images\Vinfo2.jpg'); */
+    background-color: #CDFADB;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 2rem;
+    height: auto;
+    /* font-size: 1.1rem; */
+    text-align: center;
+  }
+  
+   .vaccine-card {
+    /* border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    width: 300px; */
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .vaccine-card h2 {
+    /* font-size: 1.5rem;
+    margin-bottom: 10px; */
+    margin-top: 0;
+  }
+  
+   .vaccine-card p {
+    margin: 5px 0;
+    /* margin-bottom: 10px; */
+  }
+  
+   .vaccine-card p strong {
+    font-weight: bold;
+  }
+  
+/* .vaccine-card p:last-child {
+    margin-bottom: 0;
+  }
+   */

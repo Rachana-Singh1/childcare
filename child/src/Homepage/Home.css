@@ -1,0 +1,229 @@
+/* Home.css */
+.home-page {
+  width: 100%;
+  height: 100%;
+}
+
+.hero-section {
+  background-color: rgb(217, 245, 236);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px;
+}
+
+.hero-section h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-section button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.hero-section button:hover {
+  background-color: #0056b3;
+}
+
+.hero-content {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.hero-content p {
+  font-size: 19px;
+  margin-left: -20px;
+  width: 550px;
+  margin-top: -30px;
+}
+
+.hero-content img {
+  max-width: 1000px;
+  margin-bottom:50px ;
+  /* margin-left: 550px; */
+}
+
+  
+  .overview-section {
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: auto;
+    padding: 50px 0;
+  }
+  .overview-container{
+    background-color: #BBE2EC;
+    background-size: cover;
+    color: #0056b3;
+  }
+  .overview-content {
+    text-align: center;
+
+  }
+  .overview-content p{
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+  }
+  .container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+.box {
+  background-image: url('D:\project\child\src\images\box1.jpg');
+  width: 50%;  /* Each box takes 50% of the container width */
+  display: inline-block; /* Display boxes inline */
+  box-sizing: border-box; /* Include padding and border in the box's total width and height */
+  padding: 20px;
+  background-size: cover;
+  max-width: 500px;
+  padding-bottom: 300px;
+  background-color: blue;
+  color: white;
+  margin: 10px; 
+}
+.boxs {
+  background-image: url('D:\project\child\src\images\box2.jpg');
+  width: 50%; /* Each box takes 50% of the container width */
+  display: inline-block; /* Display boxes inline */
+  box-sizing: border-box; /* Include padding and border in the box's total width and height */
+  padding: 20px;
+  background-size: cover;
+  max-width: 500px;
+  padding-bottom: 300px;
+  background-color: blue;
+  color: white;
+  margin: 10px; /* Adjust margin as needed */
+  transition:transform 0.3s; /* Add transition for smooth animation */ ;
+}
+.boxs img:hover {
+  transform: scale(1.1); /* Enlarge the image by 10% on hover */
+}
+  /* Style for vaccination schedule section */
+.vaccination-schedule { 
+  width: 100%;
+  background-color:#BED1CF;
+  text-align: center;
+  background-size: cover;
+    padding: 50px 0;
+    text-align: center;
+    color: #0056b3;
+    height:70vh;
+}
+
+.vaccination-schedule h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.schedule-container {
+  width: 60%;
+  max-width: 400px;
+}
+.vaccine-row{
+  max-height: 500px;
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.vaccine-Box {
+  flex: 2; /* Each box takes equal space */
+  padding: 20px;
+  width: 120%;
+  /* background-color: #578ea8; */
+  /* border-radius: 8px; */
+  text-align: center; 
+}
+
+.vaccine-Box img {
+  background-size: cover;
+  width: 100%;
+  text-align: center;
+  /* transition: transform 0.3s; Add transition for smooth animation */
+
+}
+  
+
+.vaccine-Box img:hover {
+  transform: scale(1.1); /* Enlarge the image by 10% on hover */
+}
+
+.vaccine-Box h2 {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.vaccine-Box p {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.vaccine-Box button {
+  /* background-color: #007bff; */
+  color:#fff;
+  border: none;
+  padding: 8px 16px;
+  font-size: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.vaccine-Box button:hover {
+  background-color: #0056b3;
+}
+
+/* Style for pediatrician section */
+
+
+  .resources {
+    margin-top: 50px;
+  }
+  
+  .resources-list {
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .resource-item {
+    width: 30%;
+    padding: 50px;
+    padding: 40px;
+    border: 3px solid #161616;
+    border-radius: 5px;
+  }
+  
+  .resource-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .resource-item p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+  }
+  .footer{
+padding: auto;
+  }
+  .footer-container {
+    background-color: #797c77;
+    color: #201c1c;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
